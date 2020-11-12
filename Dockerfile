@@ -1,4 +1,4 @@
-From 	linuxserver/code-server:latest
+FROM linuxserver/code-server:latest
 MAINTAINER Almagest fraternite <almagestfraternite@gmail.com>
 
 RUN apt-get update
