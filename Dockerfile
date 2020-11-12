@@ -1,4 +1,4 @@
-FROM linuxserver/code-server:latest
+FROM linuxserver/code-server
 MAINTAINER Almagest fraternite <almagestfraternite@gmail.com>
 RUN apt-get update
 RUN apt install build-essential node-gyp fuse wget -y
